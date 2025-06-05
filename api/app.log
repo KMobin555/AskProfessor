@@ -179,3 +179,4 @@ Here are some key points about GreenGrow:
 *   **Commitment:** The company partners with universities and research institutions and hosts annual conferences to share knowledge.
 INFO:root:Session ID: 1d3c4348-4321-4ede-8f73-7222d9732baf, User Query: hi, Model: gpt-4o
 INFO:root:Session ID: 1d3c4348-4321-4ede-8f73-7222d9732baf, AI Response: Hello! How can I assist you today?
+INFO:backoff:Backing off send_request(...) for 0.2s (requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
