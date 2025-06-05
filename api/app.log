@@ -120,3 +120,20 @@ INFO:root:Session ID: ef47c005-eed6-467c-8e72-523e7a2dd29f, AI Response: Okay! H
 Does this help? Is there anything else you'd like to know?
 INFO:root:Session ID: ef47c005-eed6-467c-8e72-523e7a2dd29f, User Query: what is greengrow?, Model: gpt-4o
 INFO:root:Session ID: ef47c005-eed6-467c-8e72-523e7a2dd29f, AI Response: GreenGrow Innovations is a company founded in 2010 that focuses on developing sustainable agricultural technologies. Their breakthrough came in 2018 with the EcoHarvest System, an integrated solution combining smart irrigation, soil monitoring, and automated harvesting techniques. They are also working on projects like vertical farming, drought-resistant crop development, and AI-powered farm management systems.
+INFO:root:Session ID: None, User Query: hello there , Model: gpt-4o
+INFO:root:Session ID: None, User Query: hi, Model: gpt-4o
+INFO:root:Session ID: None, User Query: hi, Model: gpt-4o
+INFO:root:Session ID: 841d47d9-0076-4157-9d04-6bc2e4f44ccc, AI Response: Hi, how can I help you today?
+INFO:root:Session ID: 841d47d9-0076-4157-9d04-6bc2e4f44ccc, User Query: you know about greegrwo?, Model: gpt-4o
+INFO:root:Session ID: 841d47d9-0076-4157-9d04-6bc2e4f44ccc, AI Response: I'm sorry, I don't have enough information to answer based on the provided documents.
+INFO:root:Session ID: 841d47d9-0076-4157-9d04-6bc2e4f44ccc, User Query: now you know?, Model: gpt-4o
+INFO:root:Session ID: 841d47d9-0076-4157-9d04-6bc2e4f44ccc, AI Response: Yes, I do! GreenGrow Innovations was founded in 2010 by Sarah Chen and Michael Rodriguez. They are focused on developing sustainable agricultural technologies. Their breakthrough came in 2018 with the EcoHarvest System, an integrated solution that combined smart irrigation, soil monitoring, and automated harvesting techniques. They started in a garage in Portland, Oregon, but now have offices in California and Iowa and employ over 200 people. They also partner with universities and research institutions and host annual conferences.
+INFO:root:Session ID: None, User Query: hi, Model: gpt-4o
+INFO:root:Session ID: 1114408b-ad29-4e49-95d3-60bbd4f56216, AI Response: Hi there! How can I help you today?
+INFO:root:Session ID: 1114408b-ad29-4e49-95d3-60bbd4f56216, User Query: tell me about the greegrow, Model: gpt-4o
+INFO:root:Session ID: 1114408b-ad29-4e49-95d3-60bbd4f56216, AI Response: GreenGrow Innovations was founded in 2010 by Sarah Chen and Michael Rodriguez. They are two agricultural engineers with a passion for sustainable farming. The company's mission is to make farming more environmentally friendly and efficient.
+
+Their breakthrough came in 2018 with the EcoHarvest System, an integrated solution that combined smart irrigation, soil monitoring, and automated harvesting techniques. Today, GreenGrow Innovations employs over 200 people and has expanded its operations to include offices in California and Iowa. The company continues to focus on developing sustainable agricultural technologies, with ongoing projects in vertical farming, drought-resistant crop development, and AI-powered farm management systems.
+INFO:root:Session ID: 1114408b-ad29-4e49-95d3-60bbd4f56216, User Query: sdf
+sdf, Model: gpt-4o
+INFO:root:Session ID: 1114408b-ad29-4e49-95d3-60bbd4f56216, AI Response: I'm sorry, I didn't understand. Can you please clarify what you're asking or need help with?
