@@ -20,10 +20,16 @@ class GeminiEmbeddings(Embeddings):
         return self._embed(text)
 
     def _embed(self, text: str) -> List[float]:
-        # model = genai.GenerativeModel("embedding-001")
-        model = genai.embed_content(model="models/embedding-001", content=text, task_type="retrieval_document")
-        res = model.embed_content(content=text, task_type="retrieval_document")
-        return res["embedding"]
+        try:
+            result = genai.embed_content(
+                model="models/embedding-001", 
+                content=text, 
+                task_type="retrieval_document"
+            )
+            return result["embedding"]
+        except Exception as e:
+            print(f"Error generating embedding: {e}")
+            raise e
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200, length_function=len)
 embedding_function = GeminiEmbeddings()
