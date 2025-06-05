@@ -137,3 +137,45 @@ Their breakthrough came in 2018 with the EcoHarvest System, an integrated soluti
 INFO:root:Session ID: 1114408b-ad29-4e49-95d3-60bbd4f56216, User Query: sdf
 sdf, Model: gpt-4o
 INFO:root:Session ID: 1114408b-ad29-4e49-95d3-60bbd4f56216, AI Response: I'm sorry, I didn't understand. Can you please clarify what you're asking or need help with?
+INFO:root:Session ID: None, User Query: hello, Model: gpt-4o
+INFO:root:Session ID: ee0db19a-50b3-4f37-ac35-5f41eb26540e, AI Response: Hi there! How can I help you today?
+INFO:root:Session ID: ee0db19a-50b3-4f37-ac35-5f41eb26540e, User Query: i am feeling low today, Model: gpt-4o
+INFO:root:Session ID: ee0db19a-50b3-4f37-ac35-5f41eb26540e, AI Response: I'm sorry to hear that you're feeling low. While I am an AI and cannot provide medical advice or therapy, I can suggest a few things that might help:
+
+*   **Talk to someone:** Sometimes, just talking about how you feel can make a difference. This could be a friend, family member, or a mental health professional.
+*   **Do something you enjoy:** Even if you don't feel like it, engaging in an activity you usually find enjoyable can sometimes lift your spirits.
+*   **Take care of your physical health:** Make sure you're getting enough sleep, eating nutritious meals, and getting some exercise.
+*   **Practice self-care:** This could involve anything from taking a relaxing bath to reading a good book.
+
+If you're feeling overwhelmed or like you can't cope, please reach out to a mental health professional. There are many resources available to help.
+
+Remember, it's okay to not be okay, and things will get better.
+INFO:root:Session ID: None, User Query: hi, Model: gpt-4o
+INFO:root:Session ID: 9ade1f21-bec1-4b29-b958-002c9748af69, AI Response: Hi, how can I help you today?
+INFO:root:Session ID: 9ade1f21-bec1-4b29-b958-002c9748af69, User Query: hello, Model: gpt-4o
+INFO:root:Session ID: 9ade1f21-bec1-4b29-b958-002c9748af69, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: 9ade1f21-bec1-4b29-b958-002c9748af69, User Query: ss, Model: gpt-4o
+INFO:root:Session ID: 9ade1f21-bec1-4b29-b958-002c9748af69, AI Response: I'm sorry, but I don't have enough information to answer. Can you please clarify your request?
+INFO:root:Session ID: None, User Query: hi, Model: gpt-4o
+INFO:root:Session ID: 78007247-b98c-430a-9d5f-c0da0d8cb997, AI Response: Hi, how can I help you today?
+INFO:root:Session ID: 78007247-b98c-430a-9d5f-c0da0d8cb997, User Query: sdf, Model: gpt-4o
+INFO:root:Session ID: 78007247-b98c-430a-9d5f-c0da0d8cb997, AI Response: I'm sorry, but I don't have enough information to answer your question based on the provided documents.
+INFO:root:Session ID: None, User Query: hi, Model: gpt-4o
+INFO:root:Session ID: b4a8f6d0-c71f-4087-a360-46f0d651b770, AI Response: Hello! How can I help you today?
+INFO:root:Session ID: None, User Query: hi, Model: gpt-4o
+INFO:root:Session ID: 1d3c4348-4321-4ede-8f73-7222d9732baf, AI Response: Hi, how can I help you today?
+INFO:root:Session ID: 1d3c4348-4321-4ede-8f73-7222d9732baf, User Query: how you doing, Model: gpt-4o
+INFO:root:Session ID: 1d3c4348-4321-4ede-8f73-7222d9732baf, AI Response: I'm doing well, thank you for asking! How about you? Is there anything I can do for you today?
+INFO:root:Session ID: 1d3c4348-4321-4ede-8f73-7222d9732baf, User Query: tell me about greengrow , Model: gpt-4o
+INFO:root:Session ID: 1d3c4348-4321-4ede-8f73-7222d9732baf, AI Response: GreenGrow Innovations was founded in 2010 by Sarah Chen and Michael Rodriguez. They are agricultural engineers passionate about sustainable farming. The company is dedicated to making farming more environmentally friendly and efficient through sustainable agricultural technologies.
+
+Here are some key points about GreenGrow:
+
+*   **Founding and Mission:** Founded in 2010 in Portland, Oregon, with the mission of promoting sustainable farming practices.
+*   **Early Products:** Their first product was the WaterWise Sensor in 2012, followed by the SoilHealth Monitor in 2015.
+*   **Breakthrough:** In 2018, the EcoHarvest System, an integrated solution combining smart irrigation, soil monitoring, and automated harvesting techniques, led to national prominence.
+*   **Expansion:** Today, GreenGrow employs over 200 people with offices in California and Iowa.
+*   **Current Focus:** GreenGrow continues to develop sustainable agricultural technologies, including vertical farming, drought-resistant crop development, and AI-powered farm management systems.
+*   **Commitment:** The company partners with universities and research institutions and hosts annual conferences to share knowledge.
+INFO:root:Session ID: 1d3c4348-4321-4ede-8f73-7222d9732baf, User Query: hi, Model: gpt-4o
+INFO:root:Session ID: 1d3c4348-4321-4ede-8f73-7222d9732baf, AI Response: Hello! How can I assist you today?
