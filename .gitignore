@@ -5,6 +5,5 @@
 *.log
 *.pyc
 *.bin
-*.db
 
 .env
