@@ -12,7 +12,7 @@ from chroma_utils import vectorstore
 retriever = vectorstore.as_retriever(search_kwargs={"k": 2})
 output_parser = StrOutputParser()
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAghcgqCcTFZC_4Ryt9mdqgBTnUwChwYuY"
+os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 
 # Set up prompts and chains
 contextualize_q_system_prompt = (
