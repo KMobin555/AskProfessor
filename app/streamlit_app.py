@@ -19,16 +19,22 @@ st.markdown("""
     /* Global Styles */
     .main {
         font-family: 'Inter', sans-serif;
+        overflow-y: hidden;
+    }
+    .block-container {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
     
     /* Header Styling */
     .main-header {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        padding: 2rem 1rem;
+        padding: 0.2rem 0.2rem;
         border-radius: 15px;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         text-align: center;
+        length: 60%;
     }
     
     .main-title {
@@ -198,7 +204,7 @@ if "session_id" not in st.session_state:
     st.session_state.session_id = None
 
 # Create two columns for layout
-col1, col2 = st.columns([1, 3])
+col1, col2 = st.columns([1, 4])
 
 with col1:
     # Display the sidebar content in the first column
@@ -208,11 +214,11 @@ with col2:
     # Display the chat interface in the main area
     display_chat_interface()
 
-# Footer
-st.markdown("""
-<div style="text-align: center; margin-top: 3rem; padding: 2rem; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 15px;">
-    <p style="color: #6c757d; font-size: 0.9rem; margin: 0;">
-        💡 Upload your documents and start asking questions to get AI-powered insights!
-    </p>
-</div>
-""", unsafe_allow_html=True)
+# # Footer
+# st.markdown("""
+# <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 15px;">
+#     <p style="color: #6c757d; font-size: 0.9rem; margin: 0;">
+#         💡 Upload your documents and start asking questions to get AI-powered insights!
+#     </p>
+# </div>
+# """, unsafe_allow_html=True)

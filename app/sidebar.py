@@ -2,14 +2,49 @@ import streamlit as st
 from api_utils import upload_document, list_documents, delete_document
 
 def display_sidebar():
-    st.markdown("""
-    <div style="padding: 1rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
-                border-radius: 15px; margin-bottom: 1.5rem; text-align: center;">
-        <h2 style="color: white; margin: 0; font-size: 1.5rem;">⚙️ Control Panel</h2>
-    </div>
-    """, unsafe_allow_html=True)
+    # st.markdown("""
+    # <div style="padding: 1rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+    #             border-radius: 15px; margin-bottom: 1.5rem; text-align: center;">
+    #     <h2 style="color: white; margin: 0; font-size: 1.5rem;">⚙️ Control Panel</h2>
+    # </div>
+    # """, unsafe_allow_html=True)
     
     # Model Selection with enhanced styling
+
+    # Quick action buttons
+    st.markdown("---")
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        if st.button("🧹 Clear Chat", use_container_width=True):
+            st.session_state.messages = []
+            st.session_state.session_id = None
+            st.success("Chat cleared!")
+            st.rerun()
+    
+    with col2:
+        if st.button("💾 Export Chat", use_container_width=True):
+            chat_export = ""
+            for msg in st.session_state.messages:
+                role = "You" if msg["role"] == "user" else "AskProfessor"
+                timestamp = msg.get("timestamp", "Unknown")
+                chat_export += f"[{timestamp}] {role}: {msg['content']}\n\n"
+            
+            st.download_button(
+                label="📥 Download Chat History",
+                data=chat_export,
+                file_name=f"askprofessor_chat_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt",
+                mime="text/plain",
+                use_container_width=True
+            )
+    
+    with col3:
+        if st.button("🔄 New Session", use_container_width=True):
+            st.session_state.session_id = None
+            st.info("New session started!")
+    
+
+
     st.markdown("### 🤖 Select AI Model")
     model_options = ["gpt-4o", "gpt-4o-mini", "gemini"]
     
@@ -88,6 +123,10 @@ def display_sidebar():
     if documents:
         st.markdown(f"**📈 Total Documents: {len(documents)}**")
         
+        st.markdown(
+            "<div style='max-height: 300px; overflow-y: auto;'>",
+            unsafe_allow_html=True,
+        )
         # Display documents in a nice format
         for i, doc in enumerate(documents):
             with st.expander(f"📄 {doc['filename']}", expanded=False):
@@ -109,6 +148,7 @@ def display_sidebar():
                         else:
                             st.error(f"❌ Failed to delete document.")
         
+        st.markdown("</div>", unsafe_allow_html=True)
         st.markdown("---")
         
         # Bulk delete option
@@ -131,30 +171,30 @@ def display_sidebar():
         """, unsafe_allow_html=True)
     
     # Tips section
-    st.markdown("---")
-    st.markdown("### 💡 Tips")
+    # st.markdown("---")
+    # st.markdown("### 💡 Tips")
     
-    tips = [
-        "📄 Upload PDF files for best text extraction",
-        "🔍 Ask specific questions for better results", 
-        "📚 Upload multiple documents for comprehensive answers",
-        "🎯 Use keywords related to your uploaded content"
-    ]
+    # tips = [
+    #     "📄 Upload PDF files for best text extraction",
+    #     "🔍 Ask specific questions for better results", 
+    #     "📚 Upload multiple documents for comprehensive answers",
+    #     "🎯 Use keywords related to your uploaded content"
+    # ]
     
-    for tip in tips:
-        st.markdown(f"• {tip}")
+    # for tip in tips:
+    #     st.markdown(f"• {tip}")
     
     # Quick stats
-    if documents:
-        st.markdown("---")
-        st.markdown("### 📊 Quick Stats")
+    # if documents:
+    #     st.markdown("---")
+    #     st.markdown("### 📊 Quick Stats")
         
-        # Calculate some basic stats
-        total_docs = len(documents)
+    #     # Calculate some basic stats
+    #     total_docs = len(documents)
         
-        st.metric("📄 Documents", total_docs)
+    #     st.metric("📄 Documents", total_docs)
         
-        if total_docs > 0:
-            # Show most recent upload
-            latest_doc = max(documents, key=lambda x: x['upload_timestamp'])
-            st.metric("🕒 Latest Upload", latest_doc['filename'][:20] + "..." if len(latest_doc['filename']) > 20 else latest_doc['filename'])
+    #     if total_docs > 0:
+    #         # Show most recent upload
+    #         latest_doc = max(documents, key=lambda x: x['upload_timestamp'])
+    #         st.metric("🕒 Latest Upload", latest_doc['filename'][:20] + "..." if len(latest_doc['filename']) > 20 else latest_doc['filename'])

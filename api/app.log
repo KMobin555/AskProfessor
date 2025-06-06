@@ -180,3 +180,89 @@ Here are some key points about GreenGrow:
 INFO:root:Session ID: 1d3c4348-4321-4ede-8f73-7222d9732baf, User Query: hi, Model: gpt-4o
 INFO:root:Session ID: 1d3c4348-4321-4ede-8f73-7222d9732baf, AI Response: Hello! How can I assist you today?
 INFO:backoff:Backing off send_request(...) for 0.2s (requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+INFO:root:Session ID: None, User Query: hell, Model: gpt-4o
+INFO:root:Session ID: 5d20a7f8-55a3-4bd8-aaa4-8676c4298d09, AI Response: Hi there! How can I help you today?
+INFO:root:Session ID: None, User Query: hi, Model: gpt-4o
+INFO:root:Session ID: a7c09620-be85-44e7-873d-81e2f5a1979a, AI Response: Hello! How can I help you today?
+INFO:root:Session ID: None, User Query: hi, Model: gpt-4o
+INFO:root:Session ID: 28cffa8e-3a68-49ef-85e0-1e871acb6959, AI Response: Hi, how can I help you today?
+INFO:root:Session ID: 28cffa8e-3a68-49ef-85e0-1e871acb6959, User Query: hoilo na toh, Model: gpt-4o
+INFO:root:Session ID: 28cffa8e-3a68-49ef-85e0-1e871acb6959, AI Response: I'm sorry, I don't have enough information to answer.
+INFO:root:Session ID: None, User Query: hi, Model: gpt-4o
+INFO:root:Session ID: f1c78775-b7c0-4bec-8f2d-3c103d6f3069, AI Response: Hi! How can I help you today?
+INFO:root:Session ID: None, User Query: hi, Model: gpt-4o
+INFO:root:Session ID: 69dcd9dd-59df-4efb-a375-cccc87a8bdba, AI Response: Hi there! How can I help you today?
+INFO:root:Session ID: None, User Query: h, Model: gpt-4o
+INFO:root:Session ID: 8512efc1-6e9d-48dc-81f1-b468ea4d4d6b, AI Response: Hi, how can I help you today?
+INFO:root:Session ID: 8512efc1-6e9d-48dc-81f1-b468ea4d4d6b, User Query: jjjdsdf, Model: gpt-4o
+INFO:root:Session ID: 8512efc1-6e9d-48dc-81f1-b468ea4d4d6b, User Query: sldkjfa;sld, Model: gpt-4o
+INFO:root:Session ID: 8512efc1-6e9d-48dc-81f1-b468ea4d4d6b, AI Response: I don't have enough information to answer based on the provided documents.
+INFO:root:Session ID: 8512efc1-6e9d-48dc-81f1-b468ea4d4d6b, User Query: ;sldj;lsad, Model: gpt-4o
+INFO:root:Session ID: 8512efc1-6e9d-48dc-81f1-b468ea4d4d6b, User Query: ;sldkjf;lsjfd, Model: gpt-4o
+INFO:root:Session ID: 8512efc1-6e9d-48dc-81f1-b468ea4d4d6b, AI Response: I don't have enough information to answer your question based on the provided documents.
+INFO:root:Session ID: 8512efc1-6e9d-48dc-81f1-b468ea4d4d6b, AI Response: I don't have enough information to answer based on the provided documents.
+INFO:root:Session ID: 8512efc1-6e9d-48dc-81f1-b468ea4d4d6b, AI Response: I am sorry, I do not have enough information to answer your question. Is there anything else I can help you with?
+INFO:root:Session ID: None, User Query: sdfkjsd, Model: gpt-4o
+INFO:root:Session ID: None, User Query: sdkjf, Model: gpt-4o
+INFO:root:Session ID: None, User Query: sdljf, Model: gpt-4o
+INFO:root:Session ID: de86785b-b698-49f1-8af5-72d7c7206acc, AI Response: I am sorry, I don't have enough information to answer based on the provided documents. Is there anything else I can help you with?
+INFO:root:Session ID: 26a03ce7-071e-4464-8823-5461de0b6661, AI Response: I don't have enough information to answer based on the provided documents.
+INFO:root:Session ID: 676c8a22-5eb4-4653-ac6a-43184f50bd54, AI Response: I am sorry, I don't have enough information to answer based on the provided documents. How else can I help?
+INFO:root:Session ID: 676c8a22-5eb4-4653-ac6a-43184f50bd54, User Query: lsdjf, Model: gpt-4o
+INFO:root:Session ID: 676c8a22-5eb4-4653-ac6a-43184f50bd54, AI Response: I am sorry, I don't have enough information to answer based on the provided documents. How else can I help?
+INFO:root:Session ID: 676c8a22-5eb4-4653-ac6a-43184f50bd54, User Query: slsd, Model: gpt-4o
+INFO:root:Session ID: 676c8a22-5eb4-4653-ac6a-43184f50bd54, AI Response: I am sorry, I don't have enough information to answer based on the provided documents. How else can I help?
+INFO:root:Session ID: None, User Query: sdkfj, Model: gpt-4o
+INFO:root:Session ID: 42a3b21e-dbd1-4625-9127-1745d18b3d05, AI Response: I am sorry, I don't have enough information to answer based on the provided documents. Is there anything else I can help you with?
+INFO:root:Session ID: 42a3b21e-dbd1-4625-9127-1745d18b3d05, User Query: iijf, Model: gpt-4o
+INFO:root:Session ID: 42a3b21e-dbd1-4625-9127-1745d18b3d05, AI Response: I am sorry, I don't have enough information to answer based on the provided documents. Is there anything else I can help you with?
+INFO:root:Session ID: 42a3b21e-dbd1-4625-9127-1745d18b3d05, User Query: ksdie, Model: gpt-4o
+INFO:root:Session ID: 42a3b21e-dbd1-4625-9127-1745d18b3d05, AI Response: I am sorry, I don't have enough information to answer based on the provided documents. Is there anything else I can help you with?
+INFO:root:Session ID: None, User Query: hi, Model: gpt-4o
+INFO:root:Session ID: b927ab2c-4467-44f8-ae7e-d8cd180f3147, AI Response: Hi! How can I help you today?
+INFO:root:Session ID: b927ab2c-4467-44f8-ae7e-d8cd180f3147, User Query: hieel, Model: gpt-4o
+INFO:root:Session ID: b927ab2c-4467-44f8-ae7e-d8cd180f3147, AI Response: I'm sorry, I don't have enough information to answer based on the provided documents.
+INFO:root:Session ID: None, User Query: hi , Model: gpt-4o
+INFO:root:Session ID: 9ee35d74-5a6f-4403-a8ae-2fefcf56002e, AI Response: Hello! How can I help you today?
+INFO:root:Session ID: None, User Query:  hi, Model: gpt-4o
+INFO:root:Session ID: ba2e10f1-f89d-45f1-99ef-4b6cbb20f8a9, AI Response: Hi there! How can I help you today?
+INFO:root:Session ID: None, User Query: hi, Model: gpt-4o
+INFO:root:Session ID: 2b7e978b-7b81-4a88-991a-3a456b0bbdb1, AI Response: Hi, how can I help you today?
+INFO:root:Session ID: None, User Query: hell, Model: gpt-4o
+INFO:root:Session ID: c6d9f667-beb7-4e83-9f26-58dcac0973e8, AI Response: Hi, how can I help you today?
+INFO:root:Session ID: None, User Query: sdf, Model: gpt-4o
+INFO:root:Session ID: b3aac386-2e09-4520-a145-df10b84f9f9c, AI Response: Hi, how can I help you today?
+INFO:root:Session ID: b3aac386-2e09-4520-a145-df10b84f9f9c, User Query: sdf, Model: gpt-4o
+INFO:root:Session ID: b3aac386-2e09-4520-a145-df10b84f9f9c, AI Response: I am sorry, I don't have enough information to answer based on the provided documents.
+INFO:root:Session ID: None, User Query: fdfsdf, Model: gpt-4o
+INFO:root:Session ID: d7bfba1a-0c06-48c6-8573-3ecf6d6ed730, AI Response: Hello! How can I help you today?
+INFO:root:Session ID: d7bfba1a-0c06-48c6-8573-3ecf6d6ed730, User Query:       hi, Model: gpt-4o
+INFO:root:Session ID: d7bfba1a-0c06-48c6-8573-3ecf6d6ed730, AI Response: Hi there! How can I assist you today?
+INFO:root:Session ID: None, User Query: sd, Model: gpt-4o
+INFO:root:Session ID: bf585375-db1e-42be-a74f-e59dcf59c740, AI Response: Hello! How can I help you today?
+INFO:root:Session ID: None, User Query: hi, Model: gpt-4o
+INFO:root:Session ID: 93a99809-6698-4cd0-a5c3-8396d88fca73, AI Response: Hi, how can I help you today?
+INFO:root:Session ID: 93a99809-6698-4cd0-a5c3-8396d88fca73, User Query: how can i help you, Model: gpt-4o
+INFO:root:Session ID: 93a99809-6698-4cd0-a5c3-8396d88fca73, AI Response: I'm here to help you! I can answer questions, provide summaries, generate creative content, and more. Just let me know what you need.
+INFO:root:Session ID: 93a99809-6698-4cd0-a5c3-8396d88fca73, User Query: fixed , Model: gpt-4o
+INFO:root:Session ID: 93a99809-6698-4cd0-a5c3-8396d88fca73, AI Response: Okay, great! Is there anything specific you needed help with that is now fixed? Or is there something else I can assist you with?
+INFO:root:Session ID: None, User Query: hi, Model: gpt-4o
+INFO:root:Session ID: fbee25c0-c784-4aea-8fb0-33a0909369e3, AI Response: Hello! How can I help you today?
+INFO:root:Session ID: fbee25c0-c784-4aea-8fb0-33a0909369e3, User Query: sdkjf, Model: gpt-4o
+INFO:root:Session ID: fbee25c0-c784-4aea-8fb0-33a0909369e3, AI Response: I am sorry, I do not have enough information to answer based on the provided documents.
+INFO:root:Session ID: fbee25c0-c784-4aea-8fb0-33a0909369e3, User Query: sdfs, Model: gpt-4o
+INFO:root:Session ID: fbee25c0-c784-4aea-8fb0-33a0909369e3, AI Response: I'm sorry, I don't have enough information to answer that question. Is there anything else I can help you with?
+INFO:root:Session ID: fbee25c0-c784-4aea-8fb0-33a0909369e3, User Query: sdf, Model: gpt-4o
+INFO:root:Session ID: fbee25c0-c784-4aea-8fb0-33a0909369e3, AI Response: I am sorry, I do not have enough information to answer based on the provided documents.
+INFO:root:Session ID: None, User Query: hi , Model: gpt-4o
+INFO:root:Session ID: f58ea273-6c96-4149-951d-94b9f5175138, AI Response: Hello! How can I help you today?
+INFO:root:Session ID: None, User Query: sdfsdf, Model: gpt-4o
+INFO:root:Session ID: df7c1dee-28c4-436a-a173-c7b18cc45959, AI Response: Hello! How can I help you today?
+INFO:root:Session ID: None, User Query: hello, Model: gpt-4o
+INFO:root:Session ID: 8a23d5a1-0107-453c-84de-b7dab994a3a2, AI Response: Hi there! How can I help you today?
+INFO:root:Session ID: None, User Query: how can i help, Model: gpt-4o
+INFO:root:Session ID: 1afd98b5-f5a8-4dda-8205-8652e59a521b, AI Response: Hi there! How can I help you today?
+INFO:root:Session ID: None, User Query: sdf, Model: gpt-4o
+INFO:root:Session ID: c0fa37b4-da29-4c16-810d-4f26c9b425e2, AI Response: Hi, how can I help you today?
+INFO:root:Session ID: None, User Query: hi htere, Model: gpt-4o
+INFO:root:Session ID: 5ab20999-392a-47f3-8330-451f46fa2da1, AI Response: Hi there! How can I help you today?
