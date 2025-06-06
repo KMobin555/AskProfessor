@@ -1,3 +1,7 @@
-/chatbot/
-/api/rag_app.db
+/venv/
 /api/chroma_db/
+
+
+*.log
+*.pyc
+*.bin
