@@ -9,8 +9,11 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 import google.generativeai as genai
 import os
 
+from dotenv import load_dotenv
+load_dotenv()
+
 # Load your Gemini API Key
-genai.configure(api_key="AIzaSyAghcgqCcTFZC_4Ryt9mdqgBTnUwChwYuY")
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 class GeminiEmbeddings(Embeddings):
     def embed_documents(self, texts: List[str]) -> List[List[float]]:
