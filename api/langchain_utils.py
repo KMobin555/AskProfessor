@@ -45,10 +45,10 @@ qa_prompt = ChatPromptTemplate.from_messages([
     ("human", "{input}")
 ])
 
-def get_rag_chain(model="gpt-4o-mini"):
+def get_rag_chain(model="gemini-2.0-flash"):
     # Simple configuration without safety settings to avoid compatibility issues
     llm = ChatGoogleGenerativeAI(
-        model="gemini-2.0-flash",
+        model=model,
         temperature=0.7,
         max_output_tokens=1000
     )

@@ -1,5 +1,6 @@
 import streamlit as st
 from api_utils import upload_document, list_documents, delete_document
+from datetime import datetime
 
 def display_sidebar():
     # st.markdown("""
@@ -46,7 +47,7 @@ def display_sidebar():
 
 
     st.markdown("### 🤖 Select AI Model")
-    model_options = ["gpt-4o", "gpt-4o-mini", "gemini"]
+    model_options = ["gemini-2.0-flash"]
     
     # Create a nice looking model selector
     selected_model = st.selectbox(
@@ -58,9 +59,9 @@ def display_sidebar():
     
     # Display model info
     model_info = {
+        "gemini-2.0-flash": "✨ Google's powerful Gemini model",
         "gpt-4o": "🚀 Most advanced OpenAI model",
-        "gpt-4o-mini": "⚡ Fast and efficient OpenAI model", 
-        "gemini": "✨ Google's powerful Gemini model"
+        "gpt-4o-mini": "⚡ Fast and efficient OpenAI model"
     }
     
     st.info(f"{model_info.get(selected_model, 'AI Model')}")
